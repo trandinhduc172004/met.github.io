@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Trang chủ</title>
+	<link rel="stylesheet" type="text/css" href="cs.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+	<!-- sile anh -->
+	<img src="./BTTKP123.jpg" alt="" width="100%">
+	<!-- ket thuc sile anh  -->
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Trang chủ</a></li>
+				<li><a href="">Sản phẩm</a></li>
+				<li><a href="">Giới thiệu</a></li>
+				<li><a href="">Liên hệ</a></li>
+				<li><a href="">Đặt Mua</a></li>
+				<!-- thanh tim kiem -->
+				<div class="timkiem">
+					<form>
+						<input class="text" type="text" name="search" placeholder="Search..">
+						<button type="submit" class="searchButton">
+							Tìm Kiếm
+						</button>
+					</form>
+				</div>
+				<!-- kt thanh tim kiem -->
+			</ul>
+		</nav>
+	</header>
+	<div>
+		<marquee behavior="" direction="left">😻 CHÀO MỪNG BẠN ĐẾN VỚI SHOP ĐỒ ĂN BÁN HÀNG ĐẦU THẾ GIỚI 😻</marquee>
+	</div>
+	<main>
+		<section>
+			<h2>Sản phẩm mới</h2>
+			<div class="products">
+				<div class="product">
+					<img src="/img/a.jpg" alt="Sản phẩm 1" class="anhchitiet">
+					<h3>Sản phẩm 1</h3>
+					<p>Giá: 100.000 đồng</p>
+					<button class="buy-button">Mua ngay</button>
+					<!-- modal -->
+					<div class="modal-container">
+
+						<div class="modal">
+							<div class="nmodal-header">
+								<button class="btn-close" class="fa-solid-close"><i
+										class="fa-regular fa-rectangle-xmark"></i></button>
+								<h2 class="thongtin"><Strong></Strong>THÔNG TIN SẢN PHẨM</h2>
+								<div class="chitiet">
+									<img src="/img/a.jpg" alt="" class="imgchitiet">
+									<div class="test">
+										<h2 class="chu"><Strong>Combo Gà</Strong></h2>
+										<h3 class="chunho">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà
+											Truyền
+											thống +1 Khoai tây chiên vừa / 2 Gà Miếng Nuggets + 1 Lipton vừa</h3>
+									</div>
+								</div>
+								<!-- danh gia -->
+								<br>
+								<h3 class="ngoaidanhgia">ĐÁNH GIÁ</h3>
+								<div class="Danhgia">
+									<div class="evaluate">
+										<div class="star">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="evaluete">
+											| 129 Lượt Đánh Giá
+										</div>
+										<div class="soild">
+											| 500 Đã Bán
+										</div>
+									</div>
+								</div>
+								<h2 class="giatien">Giá Tiền : 100.000 VND</h2>
+								<!-- phan mua hang -->
+								<div class="quantity">
+									<span>Số Lượng: </span> <button onclick="cong()">+</button> <input
+										class="quantityIn" style="text-align: center;" value="1" type="text"> <button
+										onclick="tru()">-</button>
+								</div>
+								<div class="addtocart">
+									<button style="	width: 254px;
+									background-color: orangered;
+									color: white;
+									margin-top: 30px;
+									border-radius: 5px;
+									margin-left: 30%;
+									text-align: center" onclick="muahang()"><i class="fa-solid fa-cart-shopping"></i> Mua
+										Hàng </button>
+								</div>
+								<!-- kt phan mua hang -->
+								<!-- kt danh gia  -->
+
+							</div>
+							<div class="modal-body">
+
+							</div>
+						</div>
+					</div>
+					<!-- end modal -->
+				</div>
+				<div class="product">
+					<img src="/img/a.jpg" alt="Sản phẩm 1" class="anhchitiet">
+					<h3>Sản phẩm 1</h3>
+					<p>Giá: 100.000 đồng</p>
+					<button class="buy-button">Mua ngay</button>
+					<!-- modal -->
+					<div class="modal-container">
+
+						<div class="modal">
+							<div class="nmodal-header">
+								<button class="btn-close" class="fa-solid-close"><i
+										class="fa-regular fa-rectangle-xmark"></i></button>
+								<h2 class="thongtin"><Strong></Strong>THÔNG TIN SẢN PHẨM</h2>
+								<div class="chitiet">
+									<img src="/img/a.jpg" alt="" class="imgchitiet">
+									<div class="test">
+										<h2 class="chu"><Strong>Combo Gà</Strong></h2>
+										<h3 class="chunho">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà
+											Truyền
+											thống +1 Khoai tây chiên vừa / 2 Gà Miếng Nuggets + 1 Lipton vừa</h3>
+									</div>
+								</div>
+								<!-- danh gia -->
+								<br>
+								<h3 class="ngoaidanhgia">ĐÁNH GIÁ</h3>
+								<div class="Danhgia">
+									<div class="evaluate">
+										<div class="star">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="evaluete">
+											| 129 Lượt Đánh Giá
+										</div>
+										<div class="soild">
+											| 500 Đã Bán
+										</div>
+									</div>
+								</div>
+								<h2 class="giatien">Giá Tiền : 100.000 VND</h2>
+								<!-- phan mua hang -->
+								<div class="quantity">
+									<span>Số Lượng: </span> <button onclick="cong()">+</button> <input
+										class="quantityIn" style="text-align: center;" value="1" type="text"> <button
+										onclick="tru()">-</button>
+								</div>
+								<div class="addtocart">
+									<button style="	width: 254px;
+									background-color: orangered;
+									color: white;
+									margin-top: 30px;
+									border-radius: 5px;
+									margin-left: 30%;
+									text-align: center" onclick="muahang()"><i class="fa-solid fa-cart-shopping"></i> Mua Hàng </button>
+								</div>
+								<!-- kt phan mua hang -->
+								<!-- kt danh gia  -->
+
+							</div>
+							<div class="modal-body">
+
+							</div>
+						</div>
+					</div>
+					<!-- end modal -->
+				</div>
+				<div class="product">
+					<img src="/img/a.jpg" alt="Sản phẩm 1" class="anhchitiet">
+					<h3>Sản phẩm 1</h3>
+					<p>Giá: 100.000 đồng</p>
+					<button class="buy-button">Mua ngay</button>
+					<!-- modal -->
+					<div class="modal-container">
+
+						<div class="modal">
+							<div class="nmodal-header">
+								<button class="btn-close" class="fa-solid-close"><i
+										class="fa-regular fa-rectangle-xmark"></i></button>
+								<h2 class="thongtin"><Strong></Strong>THÔNG TIN SẢN PHẨM</h2>
+								<div class="chitiet">
+									<img src="/img/a.jpg" alt="" class="imgchitiet">
+									<div class="test">
+										<h2 class="chu"><Strong>Combo Gà</Strong></h2>
+										<h3 class="chunho">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà
+											Truyền
+											thống +1 Khoai tây chiên vừa / 2 Gà Miếng Nuggets + 1 Lipton vừa</h3>
+									</div>
+								</div>
+								<!-- danh gia -->
+								<br>
+								<h3 class="ngoaidanhgia">ĐÁNH GIÁ</h3>
+								<div class="Danhgia">
+									<div class="evaluate">
+										<div class="star">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="evaluete">
+											| 129 Lượt Đánh Giá
+										</div>
+										<div class="soild">
+											| 500 Đã Bán
+										</div>
+									</div>
+								</div>
+								<h2 class="giatien">Giá Tiền : 100.000 VND</h2>
+								<!-- phan mua hang -->
+								<div class="quantity">
+									<span>Số Lượng: </span> <button onclick="cong()">+</button> <input
+										class="quantityIn" style="text-align: center;" value="1" type="text"> <button
+										onclick="tru()">-</button>
+								</div>
+								<div class="addtocart">
+									<button style="	width: 254px;
+									background-color: orangered;
+									color: white;
+									margin-top: 30px;
+									border-radius: 5px;
+									margin-left: 30%;
+									text-align: center" onclick="muahang()"><i class="fa-solid fa-cart-shopping"></i> Mua
+										Hàng </button>
+								</div>
+								<!-- kt phan mua hang -->
+								<!-- kt danh gia  -->
+
+							</div>
+							<div class="modal-body">
+
+							</div>
+						</div>
+					</div>
+					<!-- end modal -->
+				</div>
+
+				<div class="product">
+					<img src="/img/a.jpg" alt="Sản phẩm 1" class="anhchitiet">
+					<h3>Sản phẩm 1</h3>
+					<p>Giá: 100.000 đồng</p>
+					<button class="buy-button">Mua ngay</button>
+					<!-- modal -->
+					<div class="modal-container">
+
+						<div class="modal">
+							<div class="nmodal-header">
+								<button class="btn-close" class="fa-solid-close"><i
+										class="fa-regular fa-rectangle-xmark"></i></button>
+								<h2 class="thongtin"><Strong></Strong>THÔNG TIN SẢN PHẨM</h2>
+								<div class="chitiet">
+									<img src="/img/a.jpg" alt="" class="imgchitiet">
+									<div class="test">
+										<h2 class="chu"><Strong>Combo Gà</Strong></h2>
+										<h3 class="chunho">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà
+											Truyền
+											thống +1 Khoai tây chiên vừa / 2 Gà Miếng Nuggets + 1 Lipton vừa</h3>
+									</div>
+								</div>
+								<!-- danh gia -->
+								<br>
+								<h3 class="ngoaidanhgia">ĐÁNH GIÁ</h3>
+								<div class="Danhgia">
+									<div class="evaluate">
+										<div class="star">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="evaluete">
+											| 129 Lượt Đánh Giá
+										</div>
+										<div class="soild">
+											| 500 Đã Bán
+										</div>
+									</div>
+								</div>
+								<h2 class="giatien">Giá Tiền : 100.000 VND</h2>
+								<!-- phan mua hang -->
+								<div class="quantity">
+									<span>Số Lượng: </span> <button onclick="cong()">+</button> <input
+										class="quantityIn" style="text-align: center;" value="1" type="text"> <button
+										onclick="tru()">-</button>
+								</div>
+								<div class="addtocart">
+									<button style="	width: 254px;
+									background-color: orangered;
+									color: white;
+									margin-top: 30px;
+									border-radius: 5px;
+									margin-left: 30%;
+									text-align: center" onclick="muahang()"><i class="fa-solid fa-cart-shopping"></i> Mua
+										Hàng </button>
+								</div>
+								<!-- kt phan mua hang -->
+								<!-- kt danh gia  -->
+
+							</div>
+							<div class="modal-body">
+
+							</div>
+						</div>
+					</div>
+					<!-- end modal -->
+				</div>
+			</div>
+		</section>
+		<!-- quang cao -->
+		<div class="banner">
+			<div class="bttat">
+				<button class="btnTat"><i class="fa-regular fa-rectangle-xmark"></i></button>
+			</div>
+			<div class="banner-main">
+				<div class="tensela">
+					<h2><strong>Giảm Giá</strong></h2>
+					<h3><strong>Mua combo gà nướng và nước sẽ giảm giá 30%</strong></h3>
+				</div>
+				<div class="imgthongbao">
+					<img src="/img/giamgia.jfif" alt="" class="imgthongbao">
+					<!-- <img src="/img/giamgia.jpg" alt=""> -->
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- kt quang cao -->
+	</main>
+
+	<script src="js.js"></script>
+</body>
+
+</html>
