@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* phần logoo */
+.all .logo {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.all .logo a > #logo1 {
+    width: 100px;
+    padding: 20px;
+}
+.all .logo a > #logo2 {
+    padding: 20px;
+}
+nav {
+    margin-top: -16px;
+}
+/* thanh tìm kiếm */
+.timkiem {
+    float: right;
+    line-height: 40px;
+    margin-right: 200px;
+}
+button {
+    width: 90px;
+    box-sizing: border-box;
+    border: 2px solid rgb(11, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+/* phần menu */
+.menu {
+    min-height: 20px;
+    background-color: #020202;
+    position: relative;
+}
+.menu > ul {
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+}
+.menu > ul > li {
+    display: inline-block;
+}
+.menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-variant: normal;
+    font-size: larger;
+    color: white;
+    padding: 0 10px ;
+    line-height: 40px;
+}
+#ul > li:hover > a {
+    color: #f10a0a;
+    background-color: rgba(0, 0, 0, 0.196);
+}
+.menu ul li:hover a {
+    background-color: rgb(230, 13, 13);
+    color: #7777;
+}
+marquee {
+    padding: 0;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e2e2e2;
+    color: #CC0033;
+    font-weight: bold;
+}
+/* phần thân csss */
+.content-main{
+    display: grid;
+    grid-template-columns: 28% 70%;
+    grid-gap:2%;
+    height: 1224px;
+}
+.content-left{
+    height: 1000px; 
+    border: 1px ;
+    list-style-type: none;
+}
+.ul {
+    color: #fff;
+    list-style-type: none;
+}
+                                /* xóa */
+.content-right{
+    height: auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+.footer-main{
+    height: 50px;
+    background:rgb(252, 74, 74);
+}
+.pro{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:10px;
+}
+/* bo quanh khung san pham */
+.bosanPham{
+    border-radius: 24px;
+    width: 291px;
+    height:349px;
+    border: 2px solid #020202; 
+    padding: 10px;
+    grid-gap:10px;
+}
+/*css menu  */
+.nav-main ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px; 
+    padding: 0 30px;
+}
+.nav-main ul li a{
+    color:white;
+    text-decoration: none;
+}
+.nav-main ul li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+/*css product   */
+.cate-pro{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.img-pro{
+    width: 290px;
+}
+.name-pro{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.name-pro a{
+    text-decoration: none;
+    color: #000;
+    }
+.name-pro a:hover{
+    color:orangered;
+}
+.price{
+    text-align: center;
+    color: red;
+}
+.banner-main{
+    margin-top: 10px;
+
+}
+.footer-main{
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    }
+.cate-pro{
+    background-color: white;
+}
+.category ul li{
+    list-style: url(../imgs/icon.png);
+    list-style-position: inside;
+    line-height: 40px;
+    border-top: 1px solid #cdcdcd;
+    padding-left: 20px;
+}
+.category ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.category ul li a:hover{
+    color: red;
+}
+.banner-doc{
+    width: 100%;
+}
+.pro-detail-top{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.pro-detail-img img{
+    width: 100%;
+}
+.baogia{
+    width: 100%;
+}
+.baogia tr td{
+    line-height: 40px;
+    padding-left: 10px;
+}
+.title_border td{
+    background: #000; 
+    color: #fff;
+    text-align: center;
+}
+.title{
+    background: #000; 
+    color: aliceblue;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+/* djd */
+.regils{
+    padding-left: 30px;
+}
+.regils p{
+    line-height: 30px
+}
+.regils p span{
+    color: red;
+}
+.btn-sent{
+    width: 80px;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.content-right .dangki1{
+    color:red;
+    text-align: center;
+}
+td {
+    padding-left: 30px;
+}
+input[type="password"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;   
+}
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+input[type="date"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+input[type="tel"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+input[type="email"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+select {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgb(9, 9, 9);
+    border-radius: 30px;
+    outline:none;
+    padding: 8px 10px;
+}
+.dk-2 {
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    line-height: 14px;
+    background-color: black;
+    color: white;
+}
+.dk-2:hover {
+    background-color: #CC0033;
+    color: #e2e2e2;
+}
+form {
+    padding-left: 397px;
+}
+.content-right .lienhe .lienhe1{
+    color: rgb(224, 61, 61);
+    text-align: center;
+}
+.content-right .tb .map{
+    text-align: center;
+}
+.content-right .chitiet .imgchitiet{
+    border: 1px solid rgb(9, 9, 9);
+    height: 252px;
+    width: 301px;
+}
+.content-right .chitiet{
+    border: 1px solid rgb(9, 9, 9);
+    height: 507px;
+    width: 907px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
